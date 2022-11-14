@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: <YOUR ACCESS KEY>
+      secret-key: <YOUR SECRET KEY>
+
+queue:
+  demo-service:
+    url: <FULL SQS URL>
